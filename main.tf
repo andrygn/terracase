@@ -5,7 +5,7 @@ terraform {
     organization = "ACME-CORP-LTD"
 
     workspaces {
-      name = "terracase"
+      name = "terraWORKSPACE"
     }
   }
 
