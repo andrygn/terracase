@@ -24,7 +24,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "myTERRACASE"
+  name     = "myTERRACASE2"
   location = "westeurope"
 }
 
