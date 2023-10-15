@@ -15,14 +15,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "myTERRACASE"
+  name     = "myTERRACASE3"
   location = "westeurope"
-}
-
-# Create a virtual network
-resource "azurerm_virtual_network" "vnet" {
-  name                = "myTERRAnetwork"
-  address_space       = ["192.168.50.0/24"]
-  location            = "westeurope"
-  resource_group_name = azurerm_resource_group.rg.name
 }
